@@ -211,11 +211,11 @@
 ##list3=dic.items()
 ##print(list1,list2,list3,sep='\n')
 
-dic={}
+'''dic={}
 while 1:
     s=eval(input('key,values:'))
     print(s)
     if 'over' in s:break
     dic[s[0]]=s[1]
-print(dic)
+print(dic)'''
 
