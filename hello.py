@@ -108,6 +108,8 @@ class account:
     def w(self,am):
         self.balance-=am
 acc1=account('1224',100)
+acc1.d(300)
 acc1.d(500)
 acc1.w(200)
+acc1.w(300)
 print(acc1.balance)
