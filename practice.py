@@ -211,11 +211,39 @@
 ##list3=dic.items()
 ##print(list1,list2,list3,sep='\n')
 
-'''dic={}
-while 1:
-    s=eval(input('key,values:'))
-    print(s)
-    if 'over' in s:break
-    dic[s[0]]=s[1]
-print(dic)'''
+##dic={}
+##while 1:
+##    s=eval(input('key,values:'))
+##    print(s)
+##    if 'over' in s:break
+##    dic[s[0]]=s[1]
+##print(dic)
+##print(dic.keys())
+##print(dic.value())
 
+##dic={}
+##sum=0
+##while 1:
+##    s=eval(input('key,values:'))
+####    print(s)
+##    if 'over' in s:break
+##    dic[s[0]]=s[1]
+##    sum+=s[1]
+##aver=sum/len(dic)
+##maximum=max(dic.values())
+##minimum=min(dic.values())
+##print(aver,maximum,minimum,sep='\n')
+
+##import random
+##A=set()
+##B=set()
+##for i in range(10):
+##    A.add(random.randint(0,10))
+##    B.add(random.randint(0,10))
+##print(A,B)
+##print(len(A),len(B))
+##print(max(A),max(B))
+##print(min(A),min(B))
+##print(A|B)
+##print(A&B)
+##print(A-B)
